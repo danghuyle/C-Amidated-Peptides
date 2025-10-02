@@ -1,0 +1,34 @@
+🔧 Starting job: global
+target
+0    1145
+1    1530
+Name: count, dtype: int64
+Selected Features (Names): ['AliphaticInd', 'Charge', 'ChargeDensity']
+
+📈 Best F1 Score: 0.7924
+
+Training F1-Score: 0.8179
+Test F1-Score: 0.7766
+
+Ranked Features:
+['AliphaticInd', 'AliphaticInd & Charge', 'AliphaticInd & ChargeDensity', 'Charge & ChargeDensity', 'ChargeDensity', 'Charge']
+
+📊 Training Metrics:
+Accuracy:             0.7776
+Balanced Accuracy:    0.7615
+F1 Score:             0.8179
+Precision:            0.7691
+Recall:               0.8732
+AUC ROC:              0.8460
+AUC PR:               0.8693
+MCC:                  0.5423
+
+📊 Test Metrics:
+Accuracy:             0.7265
+Balanced Accuracy:    0.7088
+F1 Score:             0.7766
+Precision:            0.7294
+Recall:               0.8303
+AUC ROC:              0.7883
+AUC PR:               0.8027
+MCC:                  0.4337

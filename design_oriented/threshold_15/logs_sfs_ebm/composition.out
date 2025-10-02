@@ -1,0 +1,34 @@
+🔧 Starting job: composition
+target
+0    1145
+1    1530
+Name: count, dtype: int64
+Selected Features (Names): ['AAC_I', 'GAAC_negativecharge', 'GAAC_postivecharge', 'CKSAAGP_alphaticr.aromatic.gap1', 'CKSAAGP_alphaticr.postivecharger.gap5', 'CKSAAGP_alphaticr.uncharger.gap2', 'CKSAAGP_alphaticr.uncharger.gap4', 'CKSAAGP_postivecharger.postivecharger.gap1']
+
+📈 Best F1 Score: 0.8106
+
+Training F1-Score: 0.8336
+Test F1-Score: 0.7778
+
+Ranked Features:
+['CKSAAGP_alphaticr.uncharger.gap4 & CKSAAGP_postivecharger.postivecharger.gap1', 'AAC_I & CKSAAGP_alphaticr.uncharger.gap4', 'GAAC_negativecharge & CKSAAGP_alphaticr.uncharger.gap2', 'CKSAAGP_alphaticr.uncharger.gap2', 'CKSAAGP_alphaticr.aromatic.gap1 & CKSAAGP_alphaticr.uncharger.gap2', 'GAAC_postivecharge & CKSAAGP_alphaticr.uncharger.gap2', 'GAAC_postivecharge & CKSAAGP_alphaticr.uncharger.gap4', 'AAC_I & GAAC_postivecharge', 'AAC_I & CKSAAGP_alphaticr.postivecharger.gap5', 'CKSAAGP_alphaticr.uncharger.gap4', 'CKSAAGP_alphaticr.aromatic.gap1', 'AAC_I', 'CKSAAGP_alphaticr.postivecharger.gap5', 'CKSAAGP_postivecharger.postivecharger.gap1', 'GAAC_negativecharge', 'GAAC_postivecharge']
+
+📊 Training Metrics:
+Accuracy:             0.7963
+Balanced Accuracy:    0.7801
+F1 Score:             0.8336
+Precision:            0.7822
+Recall:               0.8922
+AUC ROC:              0.8720
+AUC PR:               0.8927
+MCC:                  0.5821
+
+📊 Test Metrics:
+Accuracy:             0.7250
+Balanced Accuracy:    0.7053
+F1 Score:             0.7778
+Precision:            0.7236
+Recall:               0.8407
+AUC ROC:              0.7793
+AUC PR:               0.8116
+MCC:                  0.4305

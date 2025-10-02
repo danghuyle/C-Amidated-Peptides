@@ -1,0 +1,34 @@
+🔧 Starting job: CTD_global
+target
+0    1378
+1    1252
+Name: count, dtype: int64
+Selected Features (Names): ['CTDC_hydrophobicity_ARGP820101.G1', 'CTDC_hydrophobicity_CASG920101.G1', 'CTDC_hydrophobicity_PONP930101.G3', 'CTDD_charge.1.residue75', 'CTDD_charge.2.residue25', 'CTDD_hydrophobicity_CASG920101.1.residue0', 'CTDD_hydrophobicity_CASG920101.1.residue75', 'CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDD_hydrophobicity_ENGD860101.2.residue50', 'Charge']
+
+📈 Best F1 Score: 0.7801
+
+Training F1-Score: 0.8501
+Test F1-Score: 0.7342
+
+Ranked Features:
+['CTDD_hydrophobicity_CASG920101.1.residue75 & CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDC_hydrophobicity_CASG920101.G1 & CTDD_hydrophobicity_ENGD860101.2.residue50', 'CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDC_hydrophobicity_ARGP820101.G1', 'CTDC_hydrophobicity_PONP930101.G3 & CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDC_hydrophobicity_PONP930101.G3 & CTDD_hydrophobicity_ENGD860101.2.residue50', 'CTDC_hydrophobicity_ARGP820101.G1 & CTDD_charge.2.residue25', 'CTDD_hydrophobicity_ENGD860101.1.residue0 & CTDD_hydrophobicity_ENGD860101.2.residue50', 'CTDC_hydrophobicity_PONP930101.G3 & CTDD_charge.1.residue75', 'CTDC_hydrophobicity_PONP930101.G3 & Charge', 'CTDD_charge.2.residue25', 'CTDC_hydrophobicity_PONP930101.G3 & CTDD_hydrophobicity_CASG920101.1.residue0', 'CTDD_hydrophobicity_CASG920101.1.residue75', 'CTDD_hydrophobicity_ENGD860101.2.residue50', 'CTDD_charge.1.residue75', 'CTDD_hydrophobicity_CASG920101.1.residue0', 'CTDC_hydrophobicity_PONP930101.G3', 'CTDC_hydrophobicity_CASG920101.G1', 'Charge']
+
+📊 Training Metrics:
+Accuracy:             0.8551
+Balanced Accuracy:    0.8555
+F1 Score:             0.8501
+Precision:            0.8379
+Recall:               0.8626
+AUC ROC:              0.9327
+AUC PR:               0.9275
+MCC:                  0.7103
+
+📊 Test Metrics:
+Accuracy:             0.7447
+Balanced Accuracy:    0.7445
+F1 Score:             0.7342
+Precision:            0.7273
+Recall:               0.7412
+AUC ROC:              0.8257
+AUC PR:               0.8078
+MCC:                  0.4887

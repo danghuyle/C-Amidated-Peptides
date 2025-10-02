@@ -1,0 +1,34 @@
+🔧 Starting job: composition_CTD_global
+target
+0    1145
+1    1530
+Name: count, dtype: int64
+Selected Features (Names): ['AAC_A', 'CKSAAGP_alphaticr.postivecharger.gap1', 'CKSAAGP_alphaticr.uncharger.gap2', 'CKSAAGP_uncharger.uncharger.gap3', 'CTDC_hydrophobicity_PONP930101.G3', 'CTDD_hydrophobicity_CASG920101.3.residue0', 'CTDD_hydrophobicity_FASG890101.3.residue75', 'CTDD_hydrophobicity_ZIMJ680101.3.residue50', 'Charge']
+
+📈 Best F1 Score: 0.8213
+
+Training F1-Score: 0.8672
+Test F1-Score: 0.8025
+
+Ranked Features:
+['CKSAAGP_alphaticr.uncharger.gap2', 'CKSAAGP_uncharger.uncharger.gap3', 'AAC_A', 'CKSAAGP_uncharger.uncharger.gap3 & CTDC_hydrophobicity_PONP930101.G3', 'CKSAAGP_alphaticr.postivecharger.gap1 & CTDC_hydrophobicity_PONP930101.G3', 'CTDD_hydrophobicity_FASG890101.3.residue75', 'CKSAAGP_uncharger.uncharger.gap3 & Charge', 'CTDC_hydrophobicity_PONP930101.G3 & CTDD_hydrophobicity_CASG920101.3.residue0', 'CTDC_hydrophobicity_PONP930101.G3 & Charge', 'CKSAAGP_alphaticr.postivecharger.gap1', 'CTDD_hydrophobicity_CASG920101.3.residue0 & Charge', 'CTDD_hydrophobicity_CASG920101.3.residue0 & CTDD_hydrophobicity_ZIMJ680101.3.residue50', 'CKSAAGP_alphaticr.postivecharger.gap1 & Charge', 'CKSAAGP_alphaticr.postivecharger.gap1 & CTDD_hydrophobicity_ZIMJ680101.3.residue50', 'CTDD_hydrophobicity_ZIMJ680101.3.residue50', 'CTDC_hydrophobicity_PONP930101.G3', 'CTDD_hydrophobicity_CASG920101.3.residue0', 'Charge']
+
+📊 Training Metrics:
+Accuracy:             0.8426
+Balanced Accuracy:    0.8332
+F1 Score:             0.8672
+Precision:            0.8379
+Recall:               0.8987
+AUC ROC:              0.9214
+AUC PR:               0.9386
+MCC:                  0.6771
+
+📊 Test Metrics:
+Accuracy:             0.7668
+Balanced Accuracy:    0.7565
+F1 Score:             0.8025
+Precision:            0.7789
+Recall:               0.8277
+AUC ROC:              0.8355
+AUC PR:               0.8563
+MCC:                  0.5199

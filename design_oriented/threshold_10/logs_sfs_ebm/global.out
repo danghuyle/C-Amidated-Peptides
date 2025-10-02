@@ -1,0 +1,34 @@
+🔧 Starting job: global
+target
+0    1378
+1    1252
+Name: count, dtype: int64
+Selected Features (Names): ['AliphaticInd', 'Aromaticity', 'Charge', 'Length']
+
+📈 Best F1 Score: 0.7316
+
+Training F1-Score: 0.7956
+Test F1-Score: 0.7465
+
+Ranked Features:
+['AliphaticInd & Aromaticity', 'Aromaticity & Charge', 'AliphaticInd & Length', 'Aromaticity & Length', 'Length', 'AliphaticInd', 'Aromaticity', 'Charge']
+
+📊 Training Metrics:
+Accuracy:             0.8023
+Balanced Accuracy:    0.8026
+F1 Score:             0.7956
+Precision:            0.7833
+Recall:               0.8083
+AUC ROC:              0.8956
+AUC PR:               0.8910
+MCC:                  0.6045
+
+📊 Test Metrics:
+Accuracy:             0.7523
+Balanced Accuracy:    0.7530
+F1 Score:             0.7465
+Precision:            0.7273
+Recall:               0.7668
+AUC ROC:              0.8242
+AUC PR:               0.8064
+MCC:                  0.5053

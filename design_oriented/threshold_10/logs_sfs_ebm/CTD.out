@@ -1,0 +1,34 @@
+🔧 Starting job: CTD
+target
+0    1378
+1    1252
+Name: count, dtype: int64
+Selected Features (Names): ['CTDC_charge.G3', 'CTDD_charge.1.residue0', 'CTDD_charge.1.residue50', 'CTDD_charge.2.residue100', 'CTDD_hydrophobicity_ARGP820101.2.residue0', 'CTDD_hydrophobicity_ARGP820101.3.residue100', 'CTDT_hydrophobicity_FASG890101.Tr2332', 'CTDT_hydrophobicity_PRAM900101.Tr1221']
+
+📈 Best F1 Score: 0.7473
+
+Training F1-Score: 0.8111
+Test F1-Score: 0.7443
+
+Ranked Features:
+['CTDT_hydrophobicity_PRAM900101.Tr1221', 'CTDD_charge.2.residue100', 'CTDT_hydrophobicity_FASG890101.Tr2332', 'CTDD_hydrophobicity_ARGP820101.2.residue0 & CTDD_hydrophobicity_ARGP820101.3.residue100', 'CTDD_charge.1.residue0 & CTDD_charge.2.residue100', 'CTDD_hydrophobicity_ARGP820101.2.residue0', 'CTDD_charge.1.residue0 & CTDD_hydrophobicity_ARGP820101.3.residue100', 'CTDD_hydrophobicity_ARGP820101.3.residue100', 'CTDD_charge.2.residue100 & CTDD_hydrophobicity_ARGP820101.2.residue0', 'CTDD_charge.1.residue50 & CTDD_hydrophobicity_ARGP820101.2.residue0', 'CTDD_hydrophobicity_ARGP820101.2.residue0 & CTDT_hydrophobicity_FASG890101.Tr2332', 'CTDC_charge.G3 & CTDT_hydrophobicity_PRAM900101.Tr1221', 'CTDD_charge.1.residue50', 'CTDD_charge.1.residue0 & CTDD_charge.1.residue50', 'CTDC_charge.G3', 'CTDD_charge.1.residue0']
+
+📊 Training Metrics:
+Accuracy:             0.8110
+Balanced Accuracy:    0.8129
+F1 Score:             0.8111
+Precision:            0.7737
+Recall:               0.8522
+AUC ROC:              0.8972
+AUC PR:               0.8857
+MCC:                  0.6258
+
+📊 Test Metrics:
+Accuracy:             0.7462
+Balanced Accuracy:    0.7476
+F1 Score:             0.7443
+Precision:            0.7147
+Recall:               0.7764
+AUC ROC:              0.8155
+AUC PR:               0.7983
+MCC:                  0.4949

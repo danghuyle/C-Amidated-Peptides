@@ -1,0 +1,34 @@
+🔧 Starting job: composition_global
+target
+0    1145
+1    1530
+Name: count, dtype: int64
+Selected Features (Names): ['AAC_S', 'AAC_V', 'GAAC_negativecharge', 'CKSAAGP_alphaticr.postivecharger.gap1', 'CKSAAGP_alphaticr.uncharger.gap0', 'Charge', 'ChargeDensity']
+
+📈 Best F1 Score: 0.8097
+
+Training F1-Score: 0.8444
+Test F1-Score: 0.7916
+
+Ranked Features:
+['AAC_V', 'AAC_V & ChargeDensity', 'AAC_S & CKSAAGP_alphaticr.postivecharger.gap1', 'AAC_S & CKSAAGP_alphaticr.uncharger.gap0', 'GAAC_negativecharge & Charge', 'CKSAAGP_alphaticr.uncharger.gap0', 'CKSAAGP_alphaticr.postivecharger.gap1 & ChargeDensity', 'CKSAAGP_alphaticr.postivecharger.gap1', 'AAC_S', 'Charge & ChargeDensity', 'CKSAAGP_alphaticr.uncharger.gap0 & Charge', 'GAAC_negativecharge', 'ChargeDensity', 'Charge']
+
+📊 Training Metrics:
+Accuracy:             0.8123
+Balanced Accuracy:    0.7992
+F1 Score:             0.8444
+Precision:            0.8031
+Recall:               0.8902
+AUC ROC:              0.8908
+AUC PR:               0.9114
+MCC:                  0.6148
+
+📊 Test Metrics:
+Accuracy:             0.7474
+Balanced Accuracy:    0.7320
+F1 Score:             0.7916
+Precision:            0.7500
+Recall:               0.8381
+AUC ROC:              0.7864
+AUC PR:               0.8062
+MCC:                  0.4782

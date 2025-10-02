@@ -1,0 +1,16 @@
+torch==2.8.0
+transformers==4.56.1
+fair-esm==2.0.0
+
+scikit-learn==1.7.2
+interpret==0.6.10
+modlamp==4.3.2
+
+pandas
+numpy
+tqdm
+matplotlib
+seaborn
+scipy
+joblib
+tensorboard

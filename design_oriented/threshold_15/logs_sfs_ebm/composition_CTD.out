@@ -1,0 +1,34 @@
+🔧 Starting job: composition_CTD
+target
+0    1145
+1    1530
+Name: count, dtype: int64
+Selected Features (Names): ['CKSAAGP_alphaticr.aromatic.gap3', 'CKSAAGP_uncharger.alphaticr.gap3', 'CTDC_charge.G3', 'CTDD_charge.1.residue0', 'CTDD_hydrophobicity_ENGD860101.1.residue100', 'CTDD_hydrophobicity_FASG890101.1.residue100', 'CTDD_secondarystruct.3.residue0']
+
+📈 Best F1 Score: 0.8090
+
+Training F1-Score: 0.8392
+Test F1-Score: 0.7713
+
+Ranked Features:
+['CTDD_hydrophobicity_ENGD860101.1.residue100 & CTDD_secondarystruct.3.residue0', 'CKSAAGP_alphaticr.aromatic.gap3 & CKSAAGP_uncharger.alphaticr.gap3', 'CTDC_charge.G3 & CTDD_hydrophobicity_ENGD860101.1.residue100', 'CTDD_charge.1.residue0 & CTDD_hydrophobicity_ENGD860101.1.residue100', 'CTDD_charge.1.residue0 & CTDD_hydrophobicity_FASG890101.1.residue100', 'CKSAAGP_alphaticr.aromatic.gap3 & CTDD_charge.1.residue0', 'CTDD_charge.1.residue0 & CTDD_secondarystruct.3.residue0', 'CKSAAGP_alphaticr.aromatic.gap3', 'CTDD_secondarystruct.3.residue0', 'CTDD_hydrophobicity_FASG890101.1.residue100', 'CKSAAGP_uncharger.alphaticr.gap3', 'CTDD_hydrophobicity_ENGD860101.1.residue100', 'CTDC_charge.G3', 'CTDD_charge.1.residue0']
+
+📊 Training Metrics:
+Accuracy:             0.8022
+Balanced Accuracy:    0.7855
+F1 Score:             0.8392
+Precision:            0.7845
+Recall:               0.9020
+AUC ROC:              0.8835
+AUC PR:               0.9062
+MCC:                  0.5953
+
+📊 Test Metrics:
+Accuracy:             0.7190
+Balanced Accuracy:    0.7006
+F1 Score:             0.7713
+Precision:            0.7221
+Recall:               0.8277
+AUC ROC:              0.7738
+AUC PR:               0.8153
+MCC:                  0.4178

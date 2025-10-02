@@ -1,0 +1,34 @@
+🔧 Starting job: CTD
+target
+0    1145
+1    1530
+Name: count, dtype: int64
+Selected Features (Names): ['CTDC_charge.G3', 'CTDC_hydrophobicity_PONP930101.G3', 'CTDD_charge.1.residue0', 'CTDD_charge.1.residue50', 'CTDD_hydrophobicity_CASG920101.3.residue100', 'CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDD_hydrophobicity_FASG890101.1.residue100', 'CTDD_hydrophobicity_ZIMJ680101.3.residue100', 'CTDD_secondarystruct.2.residue75', 'CTDD_secondarystruct.3.residue0', 'CTDT_polarizability.Tr1331']
+
+📈 Best F1 Score: 0.8199
+
+Training F1-Score: 0.8678
+Test F1-Score: 0.7831
+
+Ranked Features:
+['CTDD_charge.1.residue50 & CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDD_hydrophobicity_ENGD860101.1.residue0 & CTDD_hydrophobicity_FASG890101.1.residue100', 'CTDT_polarizability.Tr1331', 'CTDD_charge.1.residue50 & CTDD_hydrophobicity_ZIMJ680101.3.residue100', 'CTDD_hydrophobicity_ENGD860101.1.residue0 & CTDD_hydrophobicity_ZIMJ680101.3.residue100', 'CTDD_charge.1.residue0 & CTDD_hydrophobicity_ZIMJ680101.3.residue100', 'CTDD_charge.1.residue0 & CTDD_hydrophobicity_FASG890101.1.residue100', 'CTDD_secondarystruct.2.residue75', 'CTDC_hydrophobicity_PONP930101.G3 & CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDC_hydrophobicity_PONP930101.G3 & CTDD_charge.1.residue0', 'CTDD_secondarystruct.3.residue0 & CTDT_polarizability.Tr1331', 'CTDD_charge.1.residue0 & CTDD_charge.1.residue50', 'CTDD_secondarystruct.3.residue0', 'CTDD_hydrophobicity_ZIMJ680101.3.residue100', 'CTDD_hydrophobicity_FASG890101.1.residue100', 'CTDC_hydrophobicity_PONP930101.G3', 'CTDD_hydrophobicity_ENGD860101.1.residue0', 'CTDD_hydrophobicity_CASG920101.3.residue100', 'CTDD_charge.1.residue50', 'CTDC_charge.G3', 'CTDD_charge.1.residue0']
+
+📊 Training Metrics:
+Accuracy:             0.8426
+Balanced Accuracy:    0.8324
+F1 Score:             0.8678
+Precision:            0.8350
+Recall:               0.9033
+AUC ROC:              0.9161
+AUC PR:               0.9317
+MCC:                  0.6773
+
+📊 Test Metrics:
+Accuracy:             0.7474
+Balanced Accuracy:    0.7391
+F1 Score:             0.7831
+Precision:            0.7702
+Recall:               0.7963
+AUC ROC:              0.8109
+AUC PR:               0.8407
+MCC:                  0.4813

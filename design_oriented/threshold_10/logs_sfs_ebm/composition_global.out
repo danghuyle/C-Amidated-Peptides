@@ -1,0 +1,34 @@
+🔧 Starting job: composition_global
+target
+0    1378
+1    1252
+Name: count, dtype: int64
+Selected Features (Names): ['AAC_L', 'DPC_LL', 'CKSAAGP_alphaticr.postivecharger.gap3', 'CKSAAGP_alphaticr.uncharger.gap2', 'CKSAAGP_aromatic.alphaticr.gap0', 'CKSAAGP_aromatic.alphaticr.gap5', 'Charge']
+
+📈 Best F1 Score: 0.7371
+
+Training F1-Score: 0.7786
+Test F1-Score: 0.7180
+
+Ranked Features:
+['DPC_LL', 'CKSAAGP_alphaticr.uncharger.gap2', 'CKSAAGP_aromatic.alphaticr.gap0', 'DPC_LL & Charge', 'CKSAAGP_alphaticr.postivecharger.gap3 & CKSAAGP_alphaticr.uncharger.gap2', 'AAC_L & CKSAAGP_alphaticr.postivecharger.gap3', 'CKSAAGP_aromatic.alphaticr.gap5', 'CKSAAGP_aromatic.alphaticr.gap0 & CKSAAGP_aromatic.alphaticr.gap5', 'AAC_L & CKSAAGP_aromatic.alphaticr.gap5', 'CKSAAGP_alphaticr.postivecharger.gap3', 'AAC_L & Charge', 'AAC_L', 'CKSAAGP_alphaticr.postivecharger.gap3 & Charge', 'Charge']
+
+📊 Training Metrics:
+Accuracy:             0.7810
+Balanced Accuracy:    0.7823
+F1 Score:             0.7786
+Precision:            0.7504
+Recall:               0.8091
+AUC ROC:              0.8772
+AUC PR:               0.8644
+MCC:                  0.5641
+
+📊 Test Metrics:
+Accuracy:             0.7219
+Balanced Accuracy:    0.7229
+F1 Score:             0.7180
+Precision:            0.6935
+Recall:               0.7444
+AUC ROC:              0.7922
+AUC PR:               0.7578
+MCC:                  0.4454

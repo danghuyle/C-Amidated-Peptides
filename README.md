@@ -115,10 +115,10 @@ Use the trained ensemble of models for inference on `test_set.csv`:
 python deployment/inference_esm2_ensemble.py
 ```
 
-### CAmidPred Tool
-```
-Freely available at with interface, easy to use at https://huggingface.co/spaces/danghuyle/CAmidPred
-```
+### CAmidPred Web Tool
+
+An easy-to-use, browser-based version of CAmidPred is freely available at: [https://huggingface.co/spaces/danghuyle/CAmidPred](https://huggingface.co/spaces/danghuyle/CAmidPred)
+
 
 ---
 

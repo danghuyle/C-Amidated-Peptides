@@ -47,7 +47,7 @@ design_oriented/
 - **Selection**: via Sequential Feature Selector (SFS)
 - **Model**: `ExplainableBoostingClassifier` from `interpret` package
 
-### Example (run one trial for feature group, with a chosen threshold of 15)
+### Example of model training (running one trial corresponding to a single feature group combination, using the chosen threshold of 15)
 ```bash
 python design_oriented/threshold_15/sfs_ebm_group.py --group composition_CTD_global
 ```

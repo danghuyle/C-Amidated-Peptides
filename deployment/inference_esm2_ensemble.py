@@ -7,7 +7,7 @@ import pandas as pd
 from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
 from sklearn.metrics import *
-from transformers import EvalPrediction
+from transformers import EvalPrediction, PretrainedConfig
 from transformers.modeling_outputs import SequenceClassifierOutput
 from esm.model.esm2 import ESM2
 from esm import Alphabet
@@ -98,7 +98,9 @@ class ESM2WithCustomHead(nn.Module):
             nn.Dropout(p=dropout),
             nn.Linear(64, num_labels)
         )
-
+        self.config = PretrainedConfig()
+        self.config.num_labels = num_labels
+        self.config.problem_type = "single_label_classification"
     def forward(self, input_ids, labels=None):
         outputs = self.backbone(input_ids, repr_layers=[self.backbone.num_layers], return_contacts=False)
         cls_repr = outputs["representations"][self.backbone.num_layers][:, 0, :]

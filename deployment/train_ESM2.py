@@ -73,8 +73,7 @@ os.makedirs(args.checkpoints_dir, exist_ok=True)
 
 df = pd.read_csv("../data/model_set.csv")
 labels = df['target'].astype(int).values
-test_ratio = 0.1
-num_samples = math.ceil((1 - 1 / args.k_folds) * (1 - test_ratio) * len(df))
+num_samples = math.ceil((1 - 1 / args.k_folds) * len(df))
 steps_per_epoch = num_samples // args.batch_size
 warmup_steps = int(1 * steps_per_epoch)
 

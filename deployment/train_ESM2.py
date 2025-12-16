@@ -14,7 +14,7 @@ import argparse
 from torch.utils.data import Dataset, DataLoader
 from transformers import (
     Trainer, TrainingArguments, EarlyStoppingCallback,
-    EvalPrediction
+    EvalPrediction, PretrainedConfig
 )
 from transformers.modeling_outputs import SequenceClassifierOutput
 from esm.model.esm2 import ESM2
@@ -136,7 +136,9 @@ class ESM2WithCustomHead(nn.Module):
             nn.Dropout(p=dropout),
             nn.Linear(64, num_labels)
         )
-
+        self.config = PretrainedConfig()
+        self.config.num_labels = num_labels
+        self.config.problem_type = "single_label_classification"
     def forward(self, input_ids, labels=None):
         outputs = self.backbone(input_ids, repr_layers=[self.backbone.num_layers], return_contacts=False)
         token_representations = outputs["representations"][self.backbone.num_layers]

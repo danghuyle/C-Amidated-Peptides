@@ -20,7 +20,7 @@ data/
 
 deployment/
 ├── esm2_t6_8M_UR50D.pt
-├── save_folds/
+├── save_folds/ (download via link: https://drive.google.com/drive/folders/1ekY_zM_QOp-TCmvIdQ9kv0uisvhIj6gV?usp=sharing)
 ├── train_ESM2.py
 └── inference_esm2_ensemble.py
 

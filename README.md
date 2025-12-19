@@ -71,7 +71,6 @@ python design_oriented/threshold_15/save_best_ebm.py
 ```
 
 The selected model will be saved as: `ebm_model.pkl`
-  ```
 
 
 ## Deployment Model (ESM2)

@@ -49,9 +49,8 @@ First, generate the processed training and test sets:
 python design_oriented/threshold_15/preprocessing.py
 ```
 
-The generated datasets will be saved in:`design_oriented/threshold_15/output/`
+The generated datasets will be saved in: `design_oriented/threshold_15/output/`
 
----
 
 Next, run one training trial using a specific feature-group combination:
 
@@ -61,8 +60,6 @@ python design_oriented/threshold_15/sfs_ebm_group.py --group composition_CTD_glo
 
 This command trains an EBM model using **one feature-group combination** (here: `composition_CTD_global`)
 There are **7 different feature-group combinations** 
-
----
 
 After running all trials, save the best-performing EBM model:
 

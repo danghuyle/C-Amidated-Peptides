@@ -58,8 +58,7 @@ Next, run one training trial using a specific feature-group combination:
 python design_oriented/threshold_15/sfs_ebm_group.py --group composition_CTD_global
 ```
 
-This command trains an EBM model using **one feature-group combination** (here: `composition_CTD_global`)
-There are **7 different feature-group combinations** 
+This command trains an EBM model using **one feature-group combination** (here: `composition_CTD_global`). There are **7 different feature-group combinations**. 
 
 After running all trials, save the best-performing EBM model:
 

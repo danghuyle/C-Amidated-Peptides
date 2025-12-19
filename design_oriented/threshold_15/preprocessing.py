@@ -20,7 +20,7 @@ with open('feature_cal.fasta', 'w') as fasta_file:
 print("Done!")
 
 os.makedirs('feature', exist_ok=True)
-for feature_type in ['AAC','CKSAAP','DPC','TPC','GAAC','CKSAAGP','GDPC','GTPC','AAINDEX','ZSCALE','BLOSUM62','NMBroto','Moran','Geary','CTDC','CTDT','CTDD','CTriad','KSCTriad','SOCNumber','QSOrder','PAAC','APAAC']:
+for feature_type in ['AAC','CKSAAP','DPC','TPC','GAAC','CKSAAGP','GDPC','GTPC','CTDC','CTDT','CTDD','CTriad','KSCTriad']:
     output_file = f"feature/{feature_type}.tsv"
     subprocess.run(['python', '../iFeature/iFeature.py', '--file', 'feature_cal.fasta', '--type', feature_type, '--out', output_file], check=True)
 

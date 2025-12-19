@@ -30,7 +30,7 @@ design_oriented/
 └── threshold_15/
     ├── preprocessing.py
     ├── sfs_ebm_group.py
-    ├── save_best_ebm.py
+    └── save_best_ebm.py
 ```
 
 ---

@@ -28,14 +28,9 @@ design_oriented/
 ├── iFeature/
 ├── threshold_10/
 └── threshold_15/
-    ├── logs_sfs_ebm/
-    ├── output/
-    ├── plots_sfs_ebm/
     ├── preprocessing.py
     ├── sfs_ebm_group.py
     ├── save_best_ebm.py
-    ├── interpret.ipynb
-    └── ebm_model.pkl
 ```
 
 ---
